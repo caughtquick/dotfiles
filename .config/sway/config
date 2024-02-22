@@ -25,6 +25,7 @@ exec autotiling
 exec dunst
 exec udiskie
 exec pipewire
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 exec_always import-gsettings
 ### Output configuration
 #

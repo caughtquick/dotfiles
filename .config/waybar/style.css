@@ -29,12 +29,12 @@ tooltip {
 
 #workspaces button.active {
   color: #a6adc8;
-  color: #94e2d5;
+  color: #cba6f7;
 }
 
 #workspaces button.focused {
   color: #1e1e2e;
-  background: #94e2d5;
+  background: #cba6f7;
   border-radius: 10px;
 }
 
