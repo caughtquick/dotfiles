@@ -95,7 +95,7 @@ client.background        $base
     # Screenshots using Shotman
     bindsym $mod+Shift+r exec shotman -c output
     bindsym $mod+Shift+t exec shotman -c window
-    :x
+    bindsym $mod+shift+y exec shotman -c region
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
