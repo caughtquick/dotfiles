@@ -226,4 +226,5 @@ bar {
 # SwayFX Config
 corner_radius 10
 blur enable
+blur_passes 2
 include /etc/sway/config.d/*
