@@ -18,13 +18,13 @@
 }
 {
     "label" : "suspend",
-    "action" : "systemctl suspend",
+    "action" : "loginctl suspend",
     "text" : "Suspend",
     "keybind" : "u"
 }
 {
     "label" : "reboot",
-    "action" : "systemctl reboot",
+    "action" : "loginctl reboot",
     "text" : "Reboot",
     "keybind" : "r"
 }
