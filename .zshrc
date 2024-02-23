@@ -8,13 +8,18 @@ fi
 
 #eval "$(starship init zsh)"
 source '/home/abhijit/.local/share/powerlevel10k/powerlevel10k.zsh-theme'
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Set Variables
 export EDITOR=nvim
 export PATH=/home/abhijit/.local/bin:$PATH
+
+# Simple Aliases
 alias vim='/bin/nvim'
 alias nvim='lvim'
 alias cat='bat'
+alias cd="z"
+
 # history setup
 setopt SHARE_HISTORY
 HISTFILE=$HOME/.zhistory
@@ -25,7 +30,7 @@ setopt HIST_EXPIRE_DUPS_FIRST
 # History-Based Autocomplete
 autoload -U compinit && compinit
 eval "$(zoxide init zsh)"
-alias cd="z"
+
 # Plugins (XBPS HANDLES 1&2)
 source ~/.local/share/zsh/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh

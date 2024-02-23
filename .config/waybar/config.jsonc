@@ -37,9 +37,9 @@
 
   "clock": {
     // "format": "{: %I:%M %p}",
-    "format": "{:󰸘 %D  %H:%M}",
-    // "format": "{: %H:%M 󰸘 %D}",
-    "tooltip-format": "<small>{:  %a,%d %b}</small>\n<tt><small>{calendar}</small></tt>"
+    // "format": "{:󰸘 %D  %H:%M}",
+    "format": "{: %H:%M  󰸘 %D}",
+    // "tooltip-format": "<small>{:  %a,%d %b}</small>\n<tt><small>{calendar}</small></tt>"
   },
 
   "pulseaudio": {
