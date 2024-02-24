@@ -14,4 +14,4 @@
 
 ![Void_SwayFX_Configuration](https://github.com/caughtquick/dotfiles/blob/main/Pictures/void-setup.png?raw=true)
 
-### Special Thanks to catppuccin.com for the Mocha theme used
+#### Special thanks to [Catppuccin](https://github.com/catppuccin) for the amazing Mocha color scheme used
